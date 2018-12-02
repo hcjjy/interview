@@ -739,14 +739,7 @@ int main()
 ### 封装
 
 * 把客观事物封装成抽象的类，并且类可以把自己的数据和方法只让可信的类或者对象操作，对不可信的进行信息隐藏。
-* 关键字：public, protected, friendly, private。不写默认为 friendly。
-
-| 关键字 | 当前类 | 包内 | 子孙类 | 包外 |
-| --- | --- | --- | --- | --- |
-| public | √ | √ | √ | √ |
-| protected | √ | √ | √ | × |
-| friendly | √ | √ | × | × |
-| private | √ | × | × | × |
+* 关键字：public, protected, private。不写默认为 private。
 
 ### 继承
 
